@@ -1,0 +1,10 @@
+post http://localhost:3003/api/blogs
+content-type: application/json
+authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3RhYWphIiwiaWQiOiI1YThjNjdkYzQ1N2Q2YzI5ZWQzMjk5YmYiLCJpYXQiOjE1MTkxNTEwOTF9.u5jynLzTPCN_54CDrY6Vb2RS5WHlD15W0eXY0BYTrcs
+
+{
+    "title": "Testi33",
+    "author": "Testaaja33",
+    "url": "www.33",
+    "likes": "33"
+}

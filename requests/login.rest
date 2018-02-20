@@ -1,0 +1,7 @@
+post http://localhost:3003/api/login
+content-type: application/json
+
+{
+    "username": "testaaja",
+    "password": "salasana1"
+}
